@@ -13,7 +13,7 @@ import ScreenShareIcon from "@mui/icons-material/ScreenShare";
 import StopScreenShareIcon from "@mui/icons-material/StopScreenShare";
 import ChatIcon from "@mui/icons-material/Chat";
 import { useNavigate } from "react-router-dom";
-import {servers} from "../environment.js";
+import servers from "../environment.js";
 const server_url = servers.prod;
 
 var connections = {};
